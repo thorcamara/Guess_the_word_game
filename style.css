@@ -41,3 +41,29 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.word input {
+  height: 51px;
+  width: 50px;
+  margin: 4px;
+  color: #0d47a1;
+  border: 1px solid #b5b5b5;
+  background: none;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+  pointer-events: none;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.type-input {
+  z-index: -999;
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.word input:first-child {
+  margin-left: 0;
+}
