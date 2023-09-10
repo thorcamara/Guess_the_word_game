@@ -67,3 +67,17 @@ body {
 .word input:first-child {
   margin-left: 0;
 }
+
+.content .info {
+  margin: 20px 0;
+}
+
+.info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
